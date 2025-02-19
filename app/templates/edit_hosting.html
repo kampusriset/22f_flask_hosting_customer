@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD - Edit Hosting</title>
+</head>
+<body>
+    <h2>Edit Hosting</h2>
+
+    <form method="POST" action="{{ url_for('edit_hosting', id=hosting[0]) }}">
+        <label for="domain">Domain:</label>
+        <input type="text" name="domain" value="{{ hosting[2] }}" required><br><br>
+
+        <label for="expiry_date">Expiry Date:</label>
+        <input type="date" name="expiry_date" value="{{ hosting[3] }}" required><br><br>
+
+        <button type="submit">Update Hosting</button>
+    </form>
+
+    <br>
+    <a href="{{ url_for('dashboard') }}">Back to Dashboard</a>
+</body>
+</html>
