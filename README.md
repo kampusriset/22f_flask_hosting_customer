@@ -22,3 +22,6 @@ Silahkan klik tautan berikut untuk melihat video demonstrasi aplikasi:
 ## 🌐 Link Website
 Jika Ingin Mengakses Website Demo, Silahkan Klik tautan berikut:
 [Klik di sini](http://210.16.65.125:5000/login)
+
+User : admin
+Pass : admin
